@@ -18,7 +18,7 @@ export const profile = {
   email: "badermerheb1@gmail.com",
   github: "https://github.com/badermerheb",
   linkedin: "https://www.linkedin.com/in/bader-merheb-3b135324a/",
-  cvPath: "/BaderMerheb_CV.pdf",
+  cvPath: `${import.meta.env.BASE_URL}BaderMerheb_CV.pdf`,
 };
 
 export const about = [
